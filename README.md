@@ -31,12 +31,12 @@ An intelligent pediatric health monitoring system for children aged 0–5. This 
 - **Machine Learning**: Python, Scikit-learn, MLP Classifier
 - **Deployment**: Docker, Heroku / Firebase Hosting
 
-## 🤖 ML Model Info (Symptom Checker)
+## 🤖 ML Model Info (Digital Doctor)
 
-The Symptom Checker uses a custom-trained MLP (Multi-layer Perceptron) neural network to classify 18 pediatric diseases based on symptom severity and child age. It was trained on 123,500 synthetic samples with 57 symptom features.
+The Symptom Checker uses a custom-trained MLP (Multi-layer Perceptron) neural network to classify 18 pediatric diseases based on symptom severity and child age. It was trained on 123,500 samples with 53 symptom features.
 
 - Accuracy: ~96.4%
-- Features: Symptom severity (0–3), child age
+- Features: Symptom severity (0–4), child age
 - Output: Predicted disease name
 
 ## 🗂️ Project Structure
